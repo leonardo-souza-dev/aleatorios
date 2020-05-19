@@ -1,0 +1,9 @@
+﻿@model List<string>
+
+@if (Model != null && Model.Any())
+{
+    @foreach (var item in Model)
+    {
+        <p>@item</p>
+    }
+}
